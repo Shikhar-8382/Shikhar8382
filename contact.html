@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact_SR-Portfolio</title>
+</head>
+
+<body>
+    <!------------------Header(Intro)---------------------->
+    <section class="sub-header contact-bg">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-cog" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./">HOME</a></li>
+                    <li><a href="./myself">MYSELF</a></li>
+                    <li><a href="./projects">PROJECTS</a></li>
+                    <li><a href="./blog">BLOGS</a></li>
+                    <li><a href="./contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-database" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Connect With Us</h1>
+        </div>
+    </section>
+    <!------------------Contact Content---------------------->
+    <section class="contact-location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114312.36273792664!2d80.25598098455849!3d26.447303775648415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1702230593422!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <hr>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Kanpur Road, Barra</h5>
+                        <p>Uttar Pradesh, Kanpur 208027</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Shikhar-8382</h5>
+                        <p>+91 ----------------</p>
+                    </span>
+
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>E-Mail Address :</h5>
+                        <p>orgshikhar8382@gmail.com</p>
+                    </span>
+
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your E-Mail" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="10" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send-Message</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!------------------Footer---------------------->
+    <footer>
+        <h4>About-Me</h4>
+        <p>Thank you for visiting my portfolio website! It's been an incredible journey crafting and showcasing my
+            passion for Programming. <br> I'm thrilled to share my work and experiences with you. Let's
+            collaborate, innovate, and create together!</p>
+        <div class="social-icons">
+            <a href="https://youtube.com/@CircuitSafari-8382?si=sJKZGJ2DxKCVQqNn"><i
+                    class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com/shikhar_8382?igshid=MzNlNGNkZWQ4Mg=="><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/Shikhar_8382?t=hycOys-Q4uVaTruP_tSUlQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/Shikhar-8382"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shikhar-verma-b47411295"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p> copyright &copy;2023 Kenocodiv. designed by <span>ShikharR</span></p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

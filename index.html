@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Shikhar_Web-Portfolio</title>
+</head>
+
+<body>
+    <!------------------Header(Intro)---------------------->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-cog" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./">HOME</a></li>
+                    <li><a href="./myself">MYSELF</a></li>
+                    <li><a href="./projects">PROJECTS</a></li>
+                    <li><a href="./blog">BLOGS</a></li>
+                    <li><a href="./contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-database" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Hi, I'm SHIKHAR</h1>
+            <span id="element"></span>
+            <p>Greetings! I'm a passionate and dedicated programmer with a flair for turning ideas into functional and
+                elegant code. My journey in the realm of programming began with a fascination for problem-solving and a
+                love for creating innovative solutions. Proficient in languages such as Python, Java, and JavaScript, I
+                have honed my skills in both front-end and back-end development.
+            </p>
+        </div>
+    </section>
+    <!------------------Myself---------------------->
+    <section class="myself">
+        <div class="row">
+            <div class="self-col">
+                <img src="Images/Programmer.png" alt="">
+            </div>
+
+            <div class="self-col">
+                <h1>Hi, I'm Shikhar</h1>
+                <p>Hello, My Name is Shikhar and I'am a Programmer, App Developer, Web Developer, Video Editor and also
+                    a Machine Learner,
+                    having a experience in many more Programming Languages like - Java, Python, JavaScript, R and many
+                    more other also some experience in new edge Technologies like in
+                    Artificial Intelligence and Machine Learning.
+                <div class="social-icons">
+                    <a href="https://youtube.com/@CircuitSafari-8382?si=sJKZGJ2DxKCVQqNn"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="https://instagram.com/shikhar_8382?igshid=MzNlNGNkZWQ4Mg=="><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/Shikhar_8382?t=hycOys-Q4uVaTruP_tSUlQ&s=09"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/Shikhar-8382"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shikhar-verma-b47411295"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!------------------Projects---------------------->
+    <section class="projects">
+        <h1>My Projects</h1>
+        <p>Theory is great but Practical application is awesome, here are some of my past year projects :</p>
+        <div class="row">
+            <div class="projects-col">
+                <img src="Images/AI.jpg" alt="">
+                <div class="layers">
+                    <h3>Pose Estimation <br><a href="projects.html">Try</a></h3>
+                </div>
+            </div>
+            <div class="projects-col">
+                <img src="Images/Roclust.jpg" alt="">
+                <div class="layers">
+                    <h3>AI Assistant <br><a href="projects.html">Try</a></h3>
+                </div>
+            </div>
+            <div class="projects-col">
+                <img src="Images/pexels-arthouse-studio-4327218.jpg" alt="">
+                <div class="layers">
+                    <h3>Image Classifier<br><a href="projects.html">Try</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------BLOGS------------------->
+    <section class="blog">
+        <h1>Blogs</h1>
+        <div class="blog-contain blog-one">
+            <h1>Artificial-Intelligence</h1>
+            <p>Unraveling AI's Marvels: Bridging Imagination and Reality. Dive into the boundless universe of Artificial
+                Intelligence, where algorithms mimic human intelligence - <a href="blog.html">Read More</a></p>
+        </div><br><br>
+        <div class="blog-contain blog-two">
+            <h1>Time-Travel</h1>
+            <p>"Time Travel Chronicles: Navigating the Temporal Enigma. Delve into the mystique of time travel, where
+                theories intertwine with imagination which breaks the all the laws of physics - <a href="blog.html">Read
+                    More</a></p>
+        </div><br><br>
+        <div class="blog-contain blog-three">
+            <h1>Tech</h1>
+            <p>"Future Tech Unveiled: Pioneering Tomorrow's Innovation. Explore a realm where machines converse, cities
+                are smart, and biotech transforms which create a ecofriendly environment - <a href="blog.html">Read
+                    More</a></p>
+        </div><br><br>
+        <div class="blog-contain blog-four">
+            <h1>Space Wonders</h1>
+            <p>"Alien Odyssey: Unveiling Cosmic Enigmas. Venture into the cosmos where extraterrestrial riddles beckon.
+                Probe the shadows of possibility, pondering existence beyond Earth - <a href="blog.html">Read More</a>
+            </p>
+        </div><br><br>
+        <div class="blog-contain blog-five">
+            <h1>Beyond</h1>
+            <p>The enigma of aliens and UFOs is not confined to modern times. Throughout history, cultures around the
+                world have woven tales of celestial beings, gods, and otherworldly encounters - <a href="blog.html">Read
+                    More</a></p>
+        </div><br><br>
+    </section>
+    <!-----------------CREATIVITY------------------->
+    <section class="create">
+        <h1>Past Works</h1>
+
+        <div class="create-box">
+            <div class="create-vertical">
+                <img class="image-top" src="Images/Brain-AI.png" alt="">
+                <div class="vertical-title">
+                    JAVA DEVELOPER (2016-2017)
+                </div>
+                <div class="vertical-desc">
+                    Embarking on a programmer's startup journey is akin to setting sail into uncharted waters. It begins
+                    with a passion for coding and a keen eye for identifying problems or innovative ideas. Armed with
+                    technical skills, the programmer develops a prototype, laying the foundation for a startup. The
+                    journey unfolds with a transition from pure coding to a broader skill set, encompassing business
+                    acumen, marketing, and team building. Seeking funding becomes a pivotal phase, requiring compelling
+                    pitches to investors. The startup experiences a cycle of iterations, adapting to user feedback and
+                    market dynamics. Navigating challenges, whether technical or strategic, becomes a constant.
+
+                </div>
+            </div>
+            <div class="create-vertical">
+                <img class="image-top" src="Images/Udemy-Logo.png" alt="">
+                <div class="vertical-title">
+                    JAVA DEVELOPER (2006-4005)
+                </div>
+                <div class="vertical-desc">
+                    Embark on a transformative programmer's journey with my online Udemy courses, meticulously crafted
+                    to
+                    accelerate your skills and propel you toward success in the dynamic world of coding. Dive deep into
+                    a comprehensive curriculum that spans fundamental concepts to advanced techniques, ensuring a solid
+                    foundation for your programming endeavors. Engage in hands-on projects that translate theoretical
+                    knowledge into practical skills, allowing you to build a robust portfolio that stands out to
+                    potential employers. Stay at the forefront of industry trends by learning the latest programming
+                    languages, tools, and frameworks.
+
+                </div>
+            </div>
+            <div class="create-vertical">
+                <img class="image-top" src="Images/YouTube.svg.jpg" alt="">
+                <div class="vertical-title">
+                    JAVA DEVELOPER (2006-4005)
+                </div>
+                <div class="vertical-desc">
+                    Discover an invaluable resource in the realm of programming through a curated collection of free
+                    courses on YouTube. These courses, thoughtfully designed to cater to all skill levels, serve as a
+                    beacon for aspiring and seasoned programmers alike. Dive into comprehensive tutorials covering a
+                    spectrum of languages, frameworks, and development tools, allowing you to bolster your skills and
+                    stay abreast of industry trends. Engage in practical coding exercises, real-world projects, and
+                    insightful discussions, transforming theoretical knowledge into practical expertise.
+                </div>
+            </div>
+            <div class="create-vertical">
+                <img class="image-top" src="Images/Coursera-Logo.svg.png" alt="">
+                <div class="vertical-title">
+                    JAVA DEVELOPER (2006-4005)
+                </div>
+                <div class="vertical-desc">
+                    Delve into a comprehensive learning experience with my online Coursera courses tailored to elevate
+                    your
+                    programmer's journey. Whether you're a coding enthusiast or a seasoned developer, these courses
+                    provide a strategic roadmap from foundational concepts to advanced programming techniques. Through a
+                    hands-on approach, you'll apply theoretical knowledge to real-world projects, cultivating both skill
+                    proficiency and a standout portfolio. Stay at the forefront of industry trends with insights derived
+                    from practical experience, ensuring relevance in the ever-evolving tech landscape.
+                </div>
+            </div>
+            <div class="create-vertical">
+                <img class="image-top" src="Images/W3School.png" alt="">
+                <div class="vertical-title">
+                    JAVA DEVELOPER (2006-4005)
+                </div>
+                <div class="vertical-desc">
+                    My best experience with the W3Schools website was during a challenging project that required me to
+                    implement a dynamic and interactive web application. As I navigated through the tutorials on
+                    JavaScript, HTML, and CSS, I found the content to be exceptionally well-structured, clear, and
+                    immediately applicable. The live examples and interactive coding exercises allowed me to experiment
+                    with concepts in real-time, deepening my understanding of the languages. The detailed documentation
+                    on various APIs and libraries further streamlined my development process.
+                </div>
+            </div>
+            <div class="create-vertical">
+                <img class="image-top" src="Images/GeeksforGeeks-Logo.png" alt="">
+                <div class="vertical-title">
+                    JAVA DEVELOPER (2006-4005)
+                </div>
+                <div class="vertical-desc">
+                    My best experience with Geeks for Geeks was during a particularly challenging phase of my computer
+                    science coursework. The wealth of well-organized, in-depth articles and tutorials on algorithms,
+                    data structures, and programming languages provided me with a lifeline during complex assignments
+                    and exam preparations. The clarity of explanation and the practical examples presented by Geeks for
+                    Geeks significantly aided my comprehension of intricate concepts. The platform's dedicated sections
+                    on interview preparation were particularly valuable, offering a comprehensive guide that played a
+                    pivotal role in my success during technical interviews.
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
