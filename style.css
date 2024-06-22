@@ -600,10 +600,6 @@ footer span {
 }
 
 @media(max-width: 700px) {
-    .self-col p {
-        font-size: 16px;
-    }
-
     .row-self {
         flex-direction: column-reverse;
     }
